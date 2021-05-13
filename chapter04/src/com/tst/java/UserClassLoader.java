@@ -61,16 +61,16 @@ public class UserClassLoader extends ClassLoader {
     }
 
     public static void main(String[] args) {
-        String rootDir = "D:\\code\\workspace_idea5\\JVMDemo1\\chapter04\\src\\";
+        String rootDir = "F:\\Flink\\JVM\\JVMDemo1\\chapter04\\src\\";
 
         try {
             //创建自定义的类的加载器1
             UserClassLoader loader1 = new UserClassLoader(rootDir);
-            Class clazz1 = loader1.findClass("com.atguigu.java.User");
+            Class clazz1 = loader1.findClass("com.tst.java.User");
 
             //创建自定义的类的加载器2
             UserClassLoader loader2 = new UserClassLoader(rootDir);
-            Class clazz2 = loader2.findClass("com.atguigu.java.User");
+            Class clazz2 = loader2.findClass("com.tst.java.User");
 
             System.out.println(clazz1 == clazz2); //clazz1与clazz2对应了不同的类模板结构。
             System.out.println(clazz1.getClassLoader());
@@ -82,6 +82,7 @@ public class UserClassLoader extends ClassLoader {
 
 
             System.out.println(clazz1.getClassLoader().getParent());
+            System.out.println(clazz2.getClassLoader().getParent());
 
         } catch (ClassNotFoundException e) {
             e.printStackTrace();

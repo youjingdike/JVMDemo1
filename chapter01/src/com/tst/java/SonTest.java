@@ -11,7 +11,9 @@ class Father {
         x = 20;
     }
     public void print() {
+        System.out.println("ffffffffffffffff");
         System.out.println("Father.x = " + x);
+        System.out.println("ffffffffffffffff");
     }
 }
 
@@ -23,13 +25,25 @@ class Son extends Father {
         x = 40;
     }
     public void print() {
+        System.out.println("ssssssssssss");
         System.out.println("Son.x = " + x);
+        System.out.println("Father.x = " + super.x);
+        System.out.println("ssssssssssss");
     }
 }
 
 public class SonTest {
     public static void main(String[] args) {
+        Father f1 = new Father();
+        System.out.println(f1.x);
+        System.out.println("1~~~~~~~~~~~~~~~~~~~~");
+
         Father f = new Son();
         System.out.println(f.x);
+
+        System.out.println("2~~~~~~~~~~~~~~~~~~~~");
+
+        Son s = new Son();
+        System.out.println(s.x);
     }
 }
