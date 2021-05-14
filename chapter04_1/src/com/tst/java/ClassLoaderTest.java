@@ -3,6 +3,7 @@ package com.tst.java;
 /**
  * @author
  * @create 16:03
+ * 请使用jdk1.9编译执行该类
  */
 public class ClassLoaderTest {
     public static void main(String[] args) {
