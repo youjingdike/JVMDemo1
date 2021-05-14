@@ -48,7 +48,7 @@ public class ExceptionTest {
             return str;
         }
         finally{
-            str = "atguigu";
+            str = "tst";
         }
     }
 

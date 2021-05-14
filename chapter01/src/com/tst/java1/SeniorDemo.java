@@ -6,7 +6,7 @@ package com.tst.java1;
  */
 public class SeniorDemo {
     private int num = 1;
-    public final String info = "atguigu";
+    public final String info = "tst";
     boolean[] counts;
 
     public SeniorDemo(){

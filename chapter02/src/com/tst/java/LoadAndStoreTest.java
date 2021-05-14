@@ -45,7 +45,7 @@ public class LoadAndStoreTest {
     public void store(int k, double d) {
         int m = k + 2;
         long l = 12;
-        String str = "atguigu";
+        String str = "tst";
         float f = 10.0F;
         d = 10;
     }

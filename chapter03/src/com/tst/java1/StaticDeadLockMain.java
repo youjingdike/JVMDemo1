@@ -44,7 +44,7 @@ public class StaticDeadLockMain extends Thread {
     @Override
     public void run() {
         try {
-            Class.forName("com.atguigu.java1.Static" + flag);
+            Class.forName("com.tst.java1.Static" + flag);
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }

@@ -13,7 +13,7 @@ public class NewTest {
     public void newInstance() {
         Object obj = new Object();
 
-        File file = new File("atguigu.avi");
+        File file = new File("tst.avi");
     }
 
     public void newArray() {

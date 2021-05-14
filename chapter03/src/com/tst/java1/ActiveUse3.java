@@ -8,7 +8,7 @@ import java.util.Random;
  * @author
  * @create 2020-09-14 17:00
  * <p>
- * 4. 当使用java.lang.reflect包中的方法反射类的方法时。比如：Class.forName("com.atguigu.java.Test")
+ * 4. 当使用java.lang.reflect包中的方法反射类的方法时。比如：Class.forName("com.tst.java.Test")
  * 5. 当初始化子类时，如果发现其父类还没有进行过初始化，则需要先触发其父类的初始化。
  * 6. 如果一个接口定义了default方法，那么直接实现或者间接实现该接口的类的初始化，该接口要在其之前被初始化。
  * 7. 当虚拟机启动时，用户需要指定一个要执行的主类（包含main()方法的那个类），虚拟机会先初始化这个主类。

@@ -110,7 +110,7 @@ public class IfSwitchGotoTest {
     public void whileInt() {
         int i = 0;
         while (i < 100) {
-            String s = "atguigu.com";
+            String s = "tst.com";
             i++;
         }
     }
@@ -118,7 +118,7 @@ public class IfSwitchGotoTest {
     public void whileDouble() {
         double d = 0.0;
         while(d < 100.1) {
-            String s = "atguigu.com";
+            String s = "tst.com";
             d++;
         }
     }
@@ -126,7 +126,7 @@ public class IfSwitchGotoTest {
     public void printFor() {
         short i;
         for (i = 0; i < 100; i++) {
-            String s = "atguigu.com";
+            String s = "tst.com";
         }
 
     }

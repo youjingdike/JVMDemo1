@@ -12,7 +12,7 @@ public class JavapTest {
 
     public static final int COUNTS = 1;
     static{
-        String url = "www.atguigu.com";
+        String url = "www.tst.com";
     }
     {
         info = "java";
